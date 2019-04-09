@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    include: rib
+  cloud.config.uri: http://${hostserver:localhost}:8888
